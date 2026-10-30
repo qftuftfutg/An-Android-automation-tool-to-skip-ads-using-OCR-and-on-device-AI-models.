@@ -6,7 +6,7 @@
 
 - [项目问题记录总览](docs/project-issues/README.md)
 - [清屏问题历史与遗留项](docs/project-issues/问题记录.md)
-- [本次源码剥离说明](SOURCE_DISTRIBUTION_NOTICE.md)（随源码包提供）
+- [本次源码剥离说明](docs/SOURCE_DISTRIBUTION_NOTICE.md)（随源码包提供）
 
 ## 当前公开源码分发范围
 
