@@ -16,12 +16,8 @@
 
 详细剥离清单、保留范围和验证边界见源码包内的 `SOURCE_DISTRIBUTION_NOTICE.md`。
 
-## 源码包与验证状态
-
-- 已生成本地源码包：`qingping-1.7.0-clean-source.zip`。
-- ZIP 完整性检查通过；Kotlin 可执行源码扫描未发现第三方规则导入器、字段解析、哈希匹配或执行入口。
-- **源码 ZIP 尚未作为 GitHub 文件或 Release 附件上传**；本仓库目前公开的是项目说明和问题历史文档。
-- 本次整理未完成 Android Gradle 构建、单元测试运行或真机回归；不能据此声称 APK 编译或运行验证通过。
+## 支持作者
+如果大家喜欢的话可以支持一下我https://afdian.com/a/123xiaole
 
 ## 安全原则
 
@@ -30,3 +26,28 @@ AI 不能直接授权点击；正文/标题中的“跳过”不能触发广告�
 ## 风险边界
 
 剥离第三方规则兼容层是工程来源管理和降低耦合的措施，不是法律免责保证。代码、规则数据、商标、宣传和实际运营行为可能涉及不同法律问题；公开发布或商业化前应由熟悉中国知识产权与竞争法的律师审查。
+
+QingPing
+QingPing is an Android accessibility assistant tool. Its goal is to reduce the interference from splash-screen ads and accidental taps that trigger external jumps, and to record the interception status of each target application.
+
+Project Documents
+
+* Overview of Project Issue Records
+* QingPing Issue History and Remaining Items
+* This Source Code Stripping Statement (provided with the source code package)
+
+Current Public Source Code Distribution Scope
+The currently organized version is 1.7.0-clean-source. It is based on the original 1.7.0 source code, with the third-party ad rule JSON importer, import UI, compatible field parsing, package name hash matching and the corresponding rule execution entry in the early prototype removed.
+
+QingPing's own built-in ad recognition, security control verification, observation mode, OCR/AI diagnosis, logs and statistics are still retained. Historical documents may mention the early compatible prototype, which is a development historical record and does not mean that the current source code still provides this function.
+
+For the detailed stripping list, retention scope and verification boundaries, please refer to SOURCE_DISTRIBUTION_NOTICE.md in the source code package.
+
+Support the Author
+If you like it, you can support me at https://afdian.com/a/123xiaole
+
+Security Principles
+AI cannot directly authorize clicks; the word "Skip" in the text/title cannot trigger ad skipping; the observation mode only records without clicking; screenshots are processed in a short-life-cycle isolated manner, and shall not be uploaded or stored in shared storage.
+
+Risk Boundaries
+Stripping the third-party rule compatibility layer is a measure for engineering source management and coupling reduction, not a legal disclaimer. Codes, rule data, trademarks, promotion and actual operation behaviors may involve different legal issues; before public release or commercialization, a lawyer familiar with China's intellectual property and competition laws shall conduct a review.
