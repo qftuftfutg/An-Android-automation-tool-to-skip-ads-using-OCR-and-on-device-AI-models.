@@ -1,5 +1,7 @@
 # 清屏（QingPing）
 
+**简体中文** | [English](README.en.md)
+
 清屏是一款 Android 无障碍辅助工具，目标是降低开屏广告和误触外跳的干扰，并记录各目标应用的拦截情况。
 
 <p align="center">
@@ -30,25 +32,3 @@ AI 不能直接授权点击；正文/标题中的“跳过”不能触发广告�
 ## 风险边界
 
 剥离第三方规则兼容层是工程来源管理和降低耦合的措施，不是法律免责保证。代码、规则数据、商标、宣传和实际运营行为可能涉及不同法律问题；公开发布或商业化前应由熟悉中国知识产权与竞争法的律师审查。
-
-QingPing
-QingPing is an Android accessibility assistant tool. Its goal is to reduce the interference from splash-screen ads and accidental taps that trigger external jumps, and to record the interception status of each target application.
-
-Project Documents
-
-* Overview of Project Issue Records
-* QingPing Issue History and Remaining Items
-* This Source Code Stripping Statement (provided with the source code package)
-
-Current Public Source Code Distribution Scope
-The currently organized version is 1.7.0-clean-source. It is based on the original 1.7.0 source code, with the third-party ad rule JSON importer, import UI, compatible field parsing, package name hash matching and the corresponding rule execution entry in the early prototype removed.
-
-QingPing's own built-in ad recognition, security control verification, observation mode, OCR/AI diagnosis, logs and statistics are still retained. Historical documents may mention the early compatible prototype, which is a development historical record and does not mean that the current source code still provides this function.
-
-For the detailed stripping list, retention scope and verification boundaries, please refer to SOURCE_DISTRIBUTION_NOTICE.md in the source code package.
-
-Security Principles
-AI cannot directly authorize clicks; the word "Skip" in body text/title cannot trigger ad skipping; observation mode records without clicking. Screenshots captured by the automatic-recognition path are handled as short-lived in-memory objects and are not intended to be written to shared storage or uploaded. Images imported by the manual annotation tool are persisted in app-private storage as required by that feature; user-exported dataset ZIP files may be saved outside the app sandbox. These data flows must not be conflated.
-
-Risk Boundaries
-Stripping the third-party rule compatibility layer is a measure for engineering source management and coupling reduction, not a legal disclaimer. Codes, rule data, trademarks, promotion and actual operation behaviors may involve different legal issues; before public release or commercialization, a lawyer familiar with China's intellectual property and competition laws shall conduct a review.
