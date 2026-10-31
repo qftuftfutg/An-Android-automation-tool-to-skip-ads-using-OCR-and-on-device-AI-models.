@@ -2,6 +2,13 @@
 
 清屏是一款 Android 无障碍辅助工具，目标是降低开屏广告和误触外跳的干扰，并记录各目标应用的拦截情况。
 
+<p align="center">
+  <a href="https://afdian.com/a/123xiaole">
+    <img src="https://img.shields.io/badge/爱发电-支持作者-946CE6?style=for-the-badge" alt="爱发电赞助 / Sponsor on Afdian">
+  </a>
+</p>
+<p align="center"><strong>自愿支持项目维护 · Voluntarily support project maintenance</strong> · <a href="SPONSOR.md">赞助说明 / Sponsorship</a></p>
+
 ## 项目资料
 
 - [项目问题记录总览](docs/project-issues/README.md)
@@ -15,9 +22,6 @@
 清屏自己的内置广告识别、安全控件校验、观察模式、OCR/AI 诊断、日志与统计仍保留。历史文档可能提及早期兼容原型，这是开发历史记录，不代表当前源码仍提供该功能。
 
 详细剥离清单、保留范围和验证边界见源码包内的 `SOURCE_DISTRIBUTION_NOTICE.md`。
-
-## 支持作者
-如果这个项目对你有帮助，可以自愿通过 [爱发电支持作者](https://afdian.com/a/123xiaole)。赞助不影响项目功能、安全判断或研究结论。
 
 ## 安全原则
 
@@ -42,9 +46,6 @@ The currently organized version is 1.7.0-clean-source. It is based on the origin
 QingPing's own built-in ad recognition, security control verification, observation mode, OCR/AI diagnosis, logs and statistics are still retained. Historical documents may mention the early compatible prototype, which is a development historical record and does not mean that the current source code still provides this function.
 
 For the detailed stripping list, retention scope and verification boundaries, please refer to SOURCE_DISTRIBUTION_NOTICE.md in the source code package.
-
-Support the Author
-If this project is useful to you, you may voluntarily [support the author via Afdian](https://afdian.com/a/123xiaole). Sponsorship does not affect project features, safety decisions, or research conclusions.
 
 Security Principles
 AI cannot directly authorize clicks; the word "Skip" in body text/title cannot trigger ad skipping; observation mode records without clicking. Screenshots captured by the automatic-recognition path are handled as short-lived in-memory objects and are not intended to be written to shared storage or uploaded. Images imported by the manual annotation tool are persisted in app-private storage as required by that feature; user-exported dataset ZIP files may be saved outside the app sandbox. These data flows must not be conflated.
