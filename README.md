@@ -44,10 +44,10 @@ QingPing's own built-in ad recognition, security control verification, observati
 For the detailed stripping list, retention scope and verification boundaries, please refer to SOURCE_DISTRIBUTION_NOTICE.md in the source code package.
 
 Support the Author
-If you like it, you can support me at https://afdian.com/a/123xiaole
+If this project is useful to you, you may voluntarily [support the author via Afdian](https://afdian.com/a/123xiaole). Sponsorship does not affect project features, safety decisions, or research conclusions.
 
 Security Principles
-AI cannot directly authorize clicks; the word "Skip" in the text/title cannot trigger ad skipping; the observation mode only records without clicking; screenshots are processed in a short-life-cycle isolated manner, and shall not be uploaded or stored in shared storage.
+AI cannot directly authorize clicks; the word "Skip" in body text/title cannot trigger ad skipping; observation mode records without clicking. Screenshots captured by the automatic-recognition path are handled as short-lived in-memory objects and are not intended to be written to shared storage or uploaded. Images imported by the manual annotation tool are persisted in app-private storage as required by that feature; user-exported dataset ZIP files may be saved outside the app sandbox. These data flows must not be conflated.
 
 Risk Boundaries
 Stripping the third-party rule compatibility layer is a measure for engineering source management and coupling reduction, not a legal disclaimer. Codes, rule data, trademarks, promotion and actual operation behaviors may involve different legal issues; before public release or commercialization, a lawyer familiar with China's intellectual property and competition laws shall conduct a review.
